@@ -10,7 +10,4 @@ public class guiaUsc extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guia_usc);
     }
-
-    //Prueba de zero
-
 }

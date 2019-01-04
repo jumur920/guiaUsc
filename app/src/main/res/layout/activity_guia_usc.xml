@@ -6,13 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".guiaUsc">
 
-    <TextView
+    <Button
+        android:id="@+id/btCalendario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Prueba rama master"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/btCalendario"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/btBuscarEvento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btCalendario" />
+
+    <Button
+        android:id="@+id/btEventosIns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/btEventosInscritos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btEvento" />
 </android.support.constraint.ConstraintLayout>

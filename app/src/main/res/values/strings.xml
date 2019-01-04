@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Guia USC</string>
+    //Pantalla principal//
+    <string name="btCalendario">Calendario</string>
+    <string name="btBuscarEvento">Buscar evento</string>
+    <string name="btEventosInscritos">Eventos inscritos</string>
 </resources>
