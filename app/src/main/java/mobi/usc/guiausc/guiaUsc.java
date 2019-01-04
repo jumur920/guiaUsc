@@ -11,10 +11,4 @@ public class guiaUsc extends AppCompatActivity {
         setContentView(R.layout.activity_guia_usc);
     }
 
-
-
-    public void pruebaRamaMaster(){
-        //Esta es la rama Master.
-    }
-
 }
