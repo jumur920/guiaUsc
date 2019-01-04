@@ -1,7 +1,7 @@
 package mobi.usc.guiausc;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+        import android.support.v7.app.AppCompatActivity;
+        import android.os.Bundle;
 
 public class guiaUsc extends AppCompatActivity {
 
@@ -10,5 +10,7 @@ public class guiaUsc extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guia_usc);
     }
+
+    //Prueba de zero
 
 }
