@@ -7,32 +7,39 @@
     tools:context=".guiaUsc">
 
     <Button
-        android:id="@+id/btCalendario"
+        android:id="@+id/btnCalendario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="136dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="84dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="intentHomeCalendario"
         android:text="@string/btCalendario"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btEvento"
+        android:id="@+id/btnBuscarEvento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/btBuscarEvento"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btCalendario" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCalendario" />
 
     <Button
-        android:id="@+id/btEventosIns"
+        android:id="@+id/btnEventoInsc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="84dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/btEventosInscritos"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btEvento" />
+        app:layout_constraintTop_toBottomOf="@+id/btnBuscarEvento" />
 </android.support.constraint.ConstraintLayout>
