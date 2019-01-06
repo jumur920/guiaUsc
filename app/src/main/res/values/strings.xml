@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Guia USC</string>
+    //Pantalla principal//
+    <string name="btCalendario">Calendario</string>
+    <string name="btBuscarEvento">Buscar evento</string>
+    <string name="btEventosInscritos">Eventos inscritos</string>
+    //Pantalla de eventos//
+    <string name="tvTituloEvento">Titulo Default</string>
+    <string name="tvTituloFecha">Fecha: </string>
+    <string name="tvTituloPonentes">Ponentes</string>
+    <string name="tvTituloUbicacion">Ubicacion: </string>
+    <string name="tvTituloDescripcion">Descripción</string>
+    <string name="btnInscribirse">Inscribirse</string>
+    <string name="btnCancelar">Cancelar</string>
 </resources>

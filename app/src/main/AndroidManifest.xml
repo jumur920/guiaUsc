@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".calendario" />
+        <activity android:name=".evento"></activity>
     </application>
 
 </manifest>
