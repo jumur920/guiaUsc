@@ -39,21 +39,33 @@ public class guiaUsc extends AppCompatActivity {
 
              //Toast.makeText(this, "BuscarEvento", Toast.LENGTH_SHORT).show();
 
-              AlertDialog.Builder builder = new AlertDialog.Builder(this);
+              AlertDialog.Builder builderBuscar = new AlertDialog.Builder(this);
               LayoutInflater inflater = getLayoutInflater();
               View dialogo = inflater.inflate(R.layout.dialogo_buscar_evento, null);
-              builder.setView(dialogo);
+              builderBuscar.setView(dialogo);
               Button btnBuscar   = (Button) dialogo.findViewById(R.id.btnDiaBusBuscar);
               //Button btnCancelar = (Button) dialogo.findViewById(R.id.btnDiaBusCancelar);
 
-              AlertDialog ventanaBuscar = builder.create();
+              AlertDialog ventanaBuscar = builderBuscar.create();
               ventanaBuscar.show();
               break;
 
           case R.id.btnEventoInsc:
 
-              Toast.makeText(this, "eventoIns", Toast.LENGTH_SHORT).show();
+              //Toast.makeText(this, "eventoIns", Toast.LENGTH_SHORT).show();
 
+              final CharSequence[] lista = {"evento1", "evento2", "evento3", "evento4"};
+              AlertDialog.Builder builderInsc = new AlertDialog.Builder(this);
+              builderInsc.setTitle("Eventos inscritos");
+              builderInsc.setItems(lista, new DialogInterface.OnClickListener() {
+                  @Override
+                  public void onClick(DialogInterface dialog, int item) {
+                      Toast.makeText(getApplicationContext(), "Has elegido la opcion: " + lista[item], Toast.LENGTH_SHORT).show();
+                      dialog.cancel();
+                  }
+              });
+              AlertDialog ventanaInsc = builderInsc.create();
+              ventanaInsc.show();
               break;
 
           //Los case posteriores hacen referencia a los botones de loa cuadros de dialogo.
