@@ -21,7 +21,7 @@ public class guiaUsc extends AppCompatActivity {
     }
 
 
-
+// BI
 
 
     //-------------------- METODO ONCLICK PARA BOTONES ------------------------//
